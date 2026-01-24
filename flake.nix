@@ -85,7 +85,7 @@
         # };
 
         # Framework Laptop (12th Gen)
-        sin-laptop = mkSystem {
+        framework = mkSystem {
           hostname = "framework";
           modules = [
             # Framework specific hardware optimizations
