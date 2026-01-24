@@ -70,12 +70,12 @@
     {
       # Custom Packages (Optional, formatted for all systems)
       # Now 'forAllSystems' is defined, so this will work!
-      packages = forAllSystems (
-        system:
-        import ./pkgs {
-          pkgs = nixpkgs.legacyPackages.${system};
-        }
-      );
+      # packages = forAllSystems (
+      #   system:
+      #   import ./pkgs {
+      #     pkgs = nixpkgs.legacyPackages.${system};
+      #   }
+      # );
 
       # --- HOST CONFIGURATIONS ---
       nixosConfigurations = {
