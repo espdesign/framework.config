@@ -79,13 +79,8 @@
 
       # --- HOST CONFIGURATIONS ---
       nixosConfigurations = {
-        # Desktop
-        # kitava-desktop = mkSystem {
-        #   hostname = "kitava-desktop";
-        # };
-
         # Framework Laptop (12th Gen)
-        framework = mkSystem {
+        default = mkSystem {
           hostname = "framework";
           modules = [
             # Framework specific hardware optimizations

@@ -1,6 +1,5 @@
 {
   pkgs,
-  inputs,
   ...
 }:
 {
@@ -32,6 +31,7 @@
 
     # Development
     zed-editor-fhs
+    gemini-cli
 
     # --- YOUR CUSTOM PACKAGES ---
     # This grabs 'my-hello' from your ./pkgs/default.nix
