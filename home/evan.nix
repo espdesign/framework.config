@@ -4,6 +4,7 @@
     ../modules/home-manager/user-apps.nix
     ../modules/home-manager/user-gnome.nix
     ../modules/home-manager/terminal.nix
+    ../modules/home-manager/syncthing.nix
     # ../modules/home-manager/zsh.nix
   ];
   home.username = "evan";
