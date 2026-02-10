@@ -54,6 +54,8 @@
   };
   #enable zsh system-wide
   programs.zsh.enable = true;
+  # enable thunderbird
+  programs.thunderbird.enable = true;
 
   # Universal packages, or tools you always want accessible
   environment.systemPackages = with pkgs; [
